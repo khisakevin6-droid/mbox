@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "titles": [
+    {
+      "id": "demo-big-buck-bunny",
+      "title": "Big Buck Bunny",
+      "type": "movie",
+      "year": 2008,
+      "runtime": 10,
+      "rating": 7.6,
+      "popularity": 95,
+      "added": "2026-03-01",
+      "synopsis": "A giant rabbit takes revenge on three bullying rodents. Blender Foundation open movie used here as demonstration content.",
+      "poster": "",
+      "backdrop": "",
+      "genres": ["Animation", "Comedy", "Family"],
+      "demo": true,
+      "sources": [
+        {
+          "provider": "Demo sample (MP4)",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "type": "mp4",
+          "verified": false,
+          "note": "Widely used public sample host. Availability is not guaranteed and was not tested by the build."
+        }
+      ]
+    },
+    {
+      "id": "demo-sintel",
+      "title": "Sintel",
+      "type": "movie",
+      "year": 2010,
+      "runtime": 15,
+      "rating": 7.4,
+      "popularity": 88,
+      "added": "2026-03-05",
+      "synopsis": "A young woman searches for the baby dragon she befriended. Blender Foundation open movie (CC BY 3.0).",
+      "genres": ["Animation", "Fantasy", "Adventure"],
+      "demo": true,
+      "sources": [
+        {
+          "provider": "Demo sample (MP4)",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "type": "mp4",
+          "verified": false,
+          "note": "Demonstration URL; not verified."
+        }
+      ]
+    },
+    {
+      "id": "demo-tears-of-steel",
+      "title": "Tears of Steel",
+      "type": "movie",
+      "year": 2012,
+      "runtime": 12,
+      "rating": 6.9,
+      "popularity": 80,
+      "added": "2026-03-10",
+      "synopsis": "Warriors and scientists try to save the world from destructive robots. Blender Foundation open movie (CC BY 3.0).",
+      "genres": ["Sci-Fi", "Action"],
+      "demo": true,
+      "sources": [
+        {
+          "provider": "Demo sample (MP4)",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+          "type": "mp4",
+          "verified": false,
+          "note": "Demonstration URL; not verified."
+        }
+      ]
+    },
+    {
+      "id": "demo-elephants-dream",
+      "title": "Elephants Dream",
+      "type": "movie",
+      "year": 2006,
+      "runtime": 11,
+      "rating": 6.2,
+      "popularity": 60,
+      "added": "2026-02-20",
+      "synopsis": "Two strange characters explore a capricious and seemingly infinite machine. Blender Foundation open movie (CC BY 2.5).",
+      "genres": ["Animation", "Sci-Fi"],
+      "demo": true,
+      "sources": [
+        {
+          "provider": "Demo sample (MP4)",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "type": "mp4",
+          "verified": false,
+          "note": "Demonstration URL; not verified."
+        }
+      ]
+    },
+    {
+      "id": "demo-hls-test-stream",
+      "title": "HLS Test Stream",
+      "type": "movie",
+      "year": 2020,
+      "runtime": 10,
+      "rating": 0,
+      "popularity": 40,
+      "added": "2026-04-01",
+      "synopsis": "Adaptive streaming (HLS .m3u8) demonstration to exercise the player's HLS support.",
+      "genres": ["Demo"],
+      "demo": true,
+      "sources": [
+        {
+          "provider": "Demo sample (HLS)",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "type": "hls",
+          "verified": false,
+          "note": "Public test stream from a streaming vendor; not verified."
+        }
+      ]
+    },
+    {
+      "id": "demo-dash-test-stream",
+      "title": "DASH Test Stream",
+      "type": "movie",
+      "year": 2020,
+      "runtime": 10,
+      "rating": 0,
+      "popularity": 35,
+      "added": "2026-04-02",
+      "synopsis": "MPEG-DASH (.mpd) demonstration to exercise the player's DASH support.",
+      "genres": ["Demo"],
+      "demo": true,
+      "sources": [
+        {
+          "provider": "Demo sample (DASH)",
+          "url": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
+          "type": "dash",
+          "verified": false,
+          "note": "Public test stream; not verified."
+        }
+      ]
+    },
+    {
+      "id": "demo-blender-shorts",
+      "title": "Blender Shorts",
+      "type": "series",
+      "year": 2012,
+      "runtime": 0,
+      "rating": 7.0,
+      "popularity": 70,
+      "added": "2026-04-10",
+      "synopsis": "A demonstration series made of three Blender Foundation open movies, to show seasons and episodes.",
+      "genres": ["Animation", "Sci-Fi", "Fantasy"],
+      "demo": true,
+      "seasons": [
+        {
+          "number": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "title": "Elephants Dream",
+              "runtime": 11,
+              "sources": [
+                { "provider": "Demo sample (MP4)", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", "type": "mp4", "verified": false }
+              ]
+            },
+            {
+              "number": 2,
+              "title": "Sintel",
+              "runtime": 15,
+              "sources": [
+                { "provider": "Demo sample (MP4)", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4", "type": "mp4", "verified": false }
+              ]
+            },
+            {
+              "number": 3,
+              "title": "Tears of Steel",
+              "runtime": 12,
+              "sources": [
+                { "provider": "Demo sample (MP4)", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4", "type": "mp4", "verified": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "template-your-movie",
+      "title": "Your Movie Here",
+      "type": "movie",
+      "year": 2026,
+      "runtime": 100,
+      "rating": 0,
+      "popularity": 10,
+      "added": "2026-05-01",
+      "synopsis": "Template entry with no source. Copy it, add a URL you are authorized to use (your own server, a public-domain archive, a licensed provider) and set \"verified\" to true once you have confirmed the rights.",
+      "genres": ["Template"],
+      "demo": true,
+      "sources": []
+    }
+  ]
+}

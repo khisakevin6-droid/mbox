@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MBOX" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/mbox_background</item>
+        <item name="android:statusBarColor">@color/mbox_background</item>
+        <item name="android:navigationBarColor">@color/mbox_background</item>
+    </style>
+</resources>

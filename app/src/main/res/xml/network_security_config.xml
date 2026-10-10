@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  HTTPS only by default. If you host your own content on a plain-HTTP server
+  (for example on your home network), add a <domain-config> for ONLY that host:
+
+  <domain-config cleartextTrafficPermitted="true">
+      <domain includeSubdomains="false">192.168.1.50</domain>
+  </domain-config>
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>
